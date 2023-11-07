@@ -19,4 +19,4 @@ function create_posttype() {
 	));
   //code end
 }
-add_action( 'init', 'create_posttype' 
+add_action( 'init', 'create_posttype');
