@@ -1,2 +1,2 @@
-# WordPress-Custom-Functions
-Basic function of wordpress with explanation
+# WordPress Custom Functions
+- Most common used function in theme development
