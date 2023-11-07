@@ -1,4 +1,5 @@
 <?php 
+//add this code in function file
 function custom_breadcrumb() {
 	global $post;
 	if ( ! is_home() ) {
@@ -27,3 +28,6 @@ function custom_breadcrumb() {
 		}
 	}
 }
+
+//add this code for display 
+custom_breadcrumb();
