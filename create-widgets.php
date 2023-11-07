@@ -1,5 +1,6 @@
 <?php 
 /* Register the widgets */
+/*add this code in function file*/
 add_action( 'widgets_init', 'mytheme_widgets_init');
 function mytheme_widgets_init() {
 	register_sidebar( array(
@@ -19,3 +20,6 @@ function mytheme_widgets_init() {
 		'after_title'   => '</h3>',
 	) );
 }
+/**Use this code for display widget***/
+//sidebar-1 is id of widget
+dynamic_sidebar('sidebar-1');
